@@ -16,7 +16,7 @@ body {
 
 .ingresaTexto {
     margin-left: 240px;
-    margin-top: 168px;
+    margin-top: 68px;
 }
 
 .texTareaIngresar {
@@ -86,7 +86,7 @@ body {
 .asideMaster {
     float: right;
     max-width: 400px;
-    height: 944px;
+    height: 844px;
     background-color: white;
     border-radius: 32px;
     box-shadow: 0px 10px 10px -3px rgb(0, 0, 0, 0.1);
@@ -120,7 +120,7 @@ body {
 .asideMasterResult {
     float: right;
     max-width: 400px;
-    height: 944px;
+    height: 844px;
     background-color: white;
     border-radius: 32px;
     box-shadow: 0px 10px 10px -3px rgb(0, 0, 0, 0.1);
@@ -178,25 +178,25 @@ div.footerCentrado img {
     /* alinea la imagen a la mitad del texto */
 }
 
-/* Agregando Media Queries  1300px ---------------------------------------------- */
-@media (max-width: 1300px) {
+/* Agregando Media Queries  1380px ---------------------------------------------- */
+@media (max-width: 1380px) {
     .contenedor {
-        max-width: 1300px;
+        max-width: 1380px;
     }
 
     .seccionMaster {
-        max-width: 674px;
+        max-width: 740px;
         float: left;
     }
-
+    
     .ingresaTexto {
-        margin-left: 110px;
-        margin-top: 58px;
+        margin-left: 140px;
+        margin-top: 68px;
     }
-
+    
     .texTareaIngresar {
-        width: 480px;
-        height: 286px;
+        width: 540px;
+        height: 236px;
         padding: 20px;
         border: none;
         outline: none;
@@ -205,36 +205,42 @@ div.footerCentrado img {
         font-size: 32px;
         color: #0A3871;
         background: none;
+        background-color: aqua;
     }
 
-    .aviso {
+    .asideMaster {
+        float: right;
+        max-width: 350px;
+        height: 844px;
+        background-color: white;
+        border-radius: 32px;
+        box-shadow: 0px 10px 10px -3px rgb(0, 0, 0, 0.1);
         display: flex;
-        margin-left: 110px;
-        margin-top: 30px;
-        margin-bottom: 10px;
+        align-items: center;
     }
 
     .dosBotones {
-        margin-left: 110px;
+        margin-left: 140px;
     }
-
+    
     .btnEncriptar {
         margin-right: 12px;
         border-radius: 24px;
-        width: 218px;
-        height: 47px;
+        width: 258px;
+        height: 57px;
         border-color: #0A3871;
         color: white;
         background-color: #0A3871;
         font-size: 16px;
         cursor: pointer;
+    
     }
-
+    
     .btnDesencriptar {
         margin-left: 12px;
         border-radius: 24px;
-        width: 218px;
-        height: 47px;
+        width: 258px;
+        height: 57px;
         border-color: #0A3871;
         color: #0A3871;
         font-size: 16px;
@@ -243,8 +249,8 @@ div.footerCentrado img {
 
     .asideMaster {
         float: right;
-        max-width: 259px;
-        height: 554px;
+        max-width: 350px;
+        height: 544px;
         background-color: white;
         border-radius: 32px;
         box-shadow: 0px 10px 10px -3px rgb(0, 0, 0, 0.1);
@@ -252,18 +258,14 @@ div.footerCentrado img {
         align-items: center;
     }
 
-    div.asideImagen img{
-        width: 195px;
-    }
-
-    .parrafoNormal {
-        font-size: 16px;
+    div.asideImagen img {
+        width: 286px;
     }
 
     .asideMasterResult {
         float: right;
-        max-width: 259px;
-        height: 554px;
+        max-width: 350px;
+        height: 544px;
         background-color: white;
         border-radius: 32px;
         box-shadow: 0px 10px 10px -3px rgb(0, 0, 0, 0.1);
@@ -271,25 +273,30 @@ div.footerCentrado img {
     }
 
     .textoEncriptado {
-        width: 195px;
-        height: 396px;
+        width: 286px;
+        height: 381px;
         font-size: 24px;
         border: none;
         outline: none;
         resize: none;
         font-family: 'Inter', sans-serif;
-        color: #0A3871;   
+        color: #0A3871;
+        background-color: aqua;
     }
 
     .btnCopiar {
-        margin-top: 57px;
+        margin-top: 32px;
         border-radius: 24px;
-        width: 195px;
-        height: 47px;
+        width: 258px;
+        height: 57px;
         border-color: #0A3871;
         color: #0A3871;
         font-size: 16px;
         cursor: pointer;
+    }
+
+    div.mensajeResultado button{
+        text-align: center;
     }
    
 }
