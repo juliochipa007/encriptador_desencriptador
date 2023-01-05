@@ -1,0 +1,29 @@
+[33mcommit fd67f4fdc39bb90a336ef6ae97e80d55b3121b5e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Julio Chipa <juliochipa007@gmail.com>
+Date:   Thu Jan 5 06:24:09 2023 -0500
+
+    Se agrego el footer con exito, la pagina esta funcional para Desktop
+
+[33mcommit 8da95937dcd1b75d3f3aae69cdf0189de828e364[m
+Author: Julio Chipa <juliochipa007@gmail.com>
+Date:   Wed Jan 4 22:25:16 2023 -0500
+
+    se arreglo el desemcriptador ya que habia errores
+
+[33mcommit 9d12d3bce7f89509d54ead119877ce20c137bac1[m
+Author: Julio Chipa <juliochipa007@gmail.com>
+Date:   Wed Jan 4 22:18:34 2023 -0500
+
+    primera version funcionado para desktop, falta para tablet y celular
+
+[33mcommit eb6e1cf3f92e9dca57cf431ee96652b40af25516[m
+Author: Julio Chipa <juliochipa007@gmail.com>
+Date:   Wed Jan 4 16:54:29 2023 -0500
+
+    Se diseño la interfaz index solo mascara
+
+[33mcommit 0fb057a0a61476c14f40c8730ea33f80d90dccd5[m
+Author: Julio Chipa <juliochipa007@gmail.com>
+Date:   Wed Jan 4 08:31:04 2023 -0500
+
+    Creando archivos para encriptar y desencriptar
