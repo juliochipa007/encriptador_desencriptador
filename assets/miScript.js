@@ -21,10 +21,11 @@ document.getElementById("btnEncriptarID").addEventListener("click", function () 
 
     if (ValorTextarea != "") {
         var textoCifrado = ValorTextarea.replace(/e/gm, "enter");
-        var textoCifrado = textoCifrado.replace(/o/gm, "ober");
         var textoCifrado = textoCifrado.replace(/i/gm, "imes");
-        var textoCifrado = textoCifrado.replace(/u/gm, "ufat");
         var textoCifrado = textoCifrado.replace(/a/gm, "ai");
+        var textoCifrado = textoCifrado.replace(/o/gm, "ober");
+        var textoCifrado = textoCifrado.replace(/u/gm, "ufat");
+        
 
         // mostar y ocultar el ASIDE
         document.querySelector(".asideMaster").style.display = "none";
@@ -42,10 +43,11 @@ document.getElementById("btnDesencriptarID").addEventListener("click", function 
 
     if (ValorTextarea != "") {
         var textoCifrado = ValorTextarea.replace(/enter/gm, "e");
-        var textoCifrado = textoCifrado.replace(/ober/gm, "o");
         var textoCifrado = textoCifrado.replace(/imes/gm, "i");
-        var textoCifrado = textoCifrado.replace(/ufat/gm, "u");
         var textoCifrado = textoCifrado.replace(/ai/gm, "a");
+        var textoCifrado = textoCifrado.replace(/ober/gm, "o");
+        var textoCifrado = textoCifrado.replace(/ufat/gm, "u");
+
 
         // mostar y ocultar el ASIDE
         document.querySelector(".asideMaster").style.display = "none";
