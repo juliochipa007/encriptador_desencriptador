@@ -16,21 +16,21 @@
     <div class="contenedor">
         <section class="seccionMaster">
             <header class="logo">
-                <img src="assets/images/Logo.png" alt="Logo Alura">
+                <a href="index.html"><img src="assets/images/Logo.png" alt="Logo Alura"></a> 
             </header>
             <div class="ingresaTexto">
-                <textarea class="texTareaIngresar" name="" id="" cols="50" rows="15"
-                    placeholder="ingrese el texto aqui"></textarea>
+                <textarea id="texTareaIngresarID" class="texTareaIngresar" placeholder="ingrese el texto aqui"></textarea>
             </div>
             <div class="aviso">
                 <img class="iconoAviso" src="assets/images/Group.png" alt="Aviso">
                 <p class="parrafoAviso">Solo letras minúsculas y sin acentos</p>
             </div>
             <div class="dosBotones">
-                <button class="btnEncriptar">Encriptar</button>
-                <button class="btnDesencriptar">Desencriptar</button>
+                <button id="btnEncriptarID" class="btnEncriptar">Encriptar</button>
+                <button id="btnDesencriptarID" class="btnDesencriptar">Desencriptar</button>
             </div>
         </section>
+
         <aside class="asideMaster">
             <div class="asideCentrar">
                 <div class="asideImagen">
@@ -40,7 +40,13 @@
                         <p class="parrafoNormal">Ingresa el texto que desees encriptar o desencriptar.</p>
                     </div>
                 </div>
-                
+            </div>
+        </aside>
+
+        <aside class="asideMasterResult">
+            <div class="mensajeResultado">
+                <textarea id="textoEncriptadoID" class="textoEncriptado" name="" id="" readonly></textarea>
+                <button id="btnCopiarID" class="btnCopiar">Copiar</button>
             </div>
         </aside>
     </div>
@@ -49,6 +55,7 @@
     </footer>
 
     <script src="assets/miScript.js"></script>
+
 </body>
 
 </html>
