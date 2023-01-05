@@ -4,12 +4,12 @@ document.querySelector(".asideMasterResult").style.display = "none";
 // Para escribir solo texto en minusculas sin tildes y sin numeros
 document.getElementById("texTareaIngresarID").addEventListener("input", function (event) {
     // expresión regular que permite solo letras y espacios en blanco
-    const VarAceptadas = /^[a-zA-Z0-9 ]*$/;
+    const VarAceptadas = /^[a-zA-Z0-9 !¿?@.,;+-_]*$/;
 
     // valida el contenido del textarea
     if (!VarAceptadas.test(event.target.value)) {
         // elimina el contenido inválido todo que no sea letras 
-        event.target.value = event.target.value.replace(/[^a-zA-Z0-9 ]/g, "");
+        event.target.value = event.target.value.replace(/[^a-zA-Z0-9 !¿?@.,;+-_]/g, "");
     }
     // convierte el contenido del textarea a minúsculas
     event.target.value = event.target.value.toLowerCase();
