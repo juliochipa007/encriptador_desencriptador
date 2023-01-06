@@ -68,12 +68,12 @@ body {
     color: white;
     background-color: #0A3871;
     font-size: 16px;
-    transition:300ms;
+    transition:200ms;
     cursor: pointer;
 }
 
 .btnEncriptar:hover{
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 
 .btnDesencriptar {
@@ -84,12 +84,12 @@ body {
     border-color: #0A3871;
     color: #0A3871;
     font-size: 16px;
-    transition:300ms;
+    transition:200ms;
     cursor: pointer;
 }
 
 .btnDesencriptar:hover{
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 
 .asideMaster {
