@@ -1,4 +1,4 @@
-# Challenge ONE | Encriptador de Desencriptador
+# Challenge ONE | Encriptador y Desencriptador
 
 En el siguiente link podras ver y usar el [**Encriptador y Desencriptador**](https://juliochipa007.github.io/encriptador_desencriptador/ "Encriptador y Desencriptador")
 
