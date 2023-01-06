@@ -1,9 +1,12 @@
 # Challenge ONE | Encriptador y Desencriptador
 
-En el siguiente link podras ver y usar el [**Encriptador y Desencriptador**](https://juliochipa007.github.io/encriptador_desencriptador/ "Encriptador y Desencriptador")
+En el siguiente link podras ver y usar el [**Encriptador y Desencriptador**](https://juliochipa007.github.io/encriptador_desencriptador/ "Encriptador y Desencriptador") o escanear el **codigo QR**.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/28883216/211051746-ba858a9e-9f42-4af7-9448-f99c549464fc.png">
+</p>
 
 Agui algunas capturas de pantalla.
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/28883216/211025693-d6fb7f9b-d971-4235-816c-c9132332741f.png">
 </p>
