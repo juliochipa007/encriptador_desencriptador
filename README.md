@@ -1,5 +1,9 @@
 # Challenge Oracle ONE | Encriptador y Desencriptador
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/28883216/211025693-d6fb7f9b-d971-4235-816c-c9132332741f.png">
+</p>
+
 ## Descripcion
 
 ¡Bienvenidos y Bienvenidas a nuestro primer desafío!
