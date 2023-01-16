@@ -53,6 +53,6 @@ Agui algunas capturas de pantalla.
   <img src="https://user-images.githubusercontent.com/28883216/211047834-d99dd1a0-1f6f-4e77-8937-0690a64b768e.png">
 </p>
 
-## Desarrollado
+## Desarrollado por:
 
 - [@juliochipa](https://github.com/juliochipa007)
